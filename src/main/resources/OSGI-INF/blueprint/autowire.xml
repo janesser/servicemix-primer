@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+    <bean xmlns:ext="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.0.0" id="upperCaseConverter" class="de.esserjan.edu.servicemix.primer.UpperCaseConverter" ext:field-injection="true">
+        <property name="locale" value="${config.UpperCaseConverter.locale}"/>
+    </bean>
+    <property-placeholder xmlns="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0" persistent-id="UpperCaseConverter" update-strategy="reload"/>
+</blueprint>
