@@ -84,6 +84,7 @@
 						<featureRepository>mvn:org.apache.camel.karaf/apache-camel/2.19.2/xml/features</featureRepository>
 					</featureRepositories>
 					<featuresToInstall>camel-blueprint</featuresToInstall>
+					<karafDistribution>mvn:org.apache.karaf/apache-karaf/4.1.3/zip</karafDistribution>
 				</configuration>
 				<executions>
 					<execution>
