@@ -3,4 +3,6 @@
         <property name="locale" value="${config.UpperCaseConverter.locale}"/>
     </bean>
     <property-placeholder xmlns="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0" persistent-id="UpperCaseConverter" update-strategy="reload"/>
+
+	<bean id="excelReader" class="de.esserjan.edu.servicemix.primer.ExcelReader" />
 </blueprint>
